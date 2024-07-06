@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker - Coin Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Crypto Tracker - Coin Details</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="favorites.html">Favorites</a>
+        </nav>
+    </header>
+    <main id="coin-detail">
+        <section id="coin-info">
+            <!-- Coin information will be populated here -->
+        </section>
+        <section id="price-chart-container">
+            <canvas id="price-chart"></canvas>
+            <div id="time-range-buttons">
+                <button data-range="1">24h</button>
+                <button data-range="30">30d</button>
+                <button data-range="90">3m</button>
+            </div>
+        </section>
+    </main>
+    <script src="coins.js"></script>
+</body>
+</html>

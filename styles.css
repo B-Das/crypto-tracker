@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#search-sort {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#coin-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.coin-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.coin-item img {
+    width: 50px;
+    height: 50px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#pagination button {
+    margin: 0 0.5rem;
+}
+/* coins  styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#search-sort {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#coin-list, #favorites-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.coin-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.coin-item img {
+    width: 50px;
+    height: 50px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#pagination button {
+    margin: 0 0.5rem;
+}
+
+/* Coin Detail Page Styles */
+#coin-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#coin-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#coin-info img {
+    width: 100px;
+    height: 100px;
+}
+
+#price-chart-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+#time-range-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#time-range-buttons button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#time-range-buttons button:hover {
+    background-color: #555;
+}

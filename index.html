@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Crypto Tracker</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="favorites.html">Favorites</a>
+        </nav>
+    </header>
+    <main>
+        <section id="search-sort">
+            <input type="text" id="search-input" placeholder="Search cryptocurrencies...">
+            <select id="sort-select">
+                <option value="market_cap_desc">Market Cap Desc</option>
+                <option value="price_desc">Price Desc</option>
+                <option value="price_asc">Price Asc</option>
+                <option value="volume_desc">Volume Desc</option>
+            </select>
+        </section>
+        <section id="coin-list">
+            <!-- Coin list will be populated here -->
+        </section>
+        <section id="pagination">
+            <button id="prev-page">Previous</button>
+            <span id="current-page">1</span>
+            <button id="next-page">Next</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
