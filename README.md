@@ -49,7 +49,8 @@ crypto-tracker/
 ```
 
 - The `crypto-tracker/` directory contains all the frontend files.
-
+## Hosted Link
+https://b-das.github.io/crypto-tracker/
 
 ## Setup and Running the Project
 
